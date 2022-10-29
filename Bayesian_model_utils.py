@@ -45,12 +45,7 @@ def run_model(df, y=None, X=None, Intx=None, rand_effect=None, rand_slopes=False
     results: model
     
     """
-    
-    # set seed
-#     SEEDS = [7, 8, 1111, 42]
-#     SEEDS = [1, 2, 1111, 42]
-# For use with stim HippOnly on behavior
-#     SEEDS = [12, 19, 11, 41]
+
     
     # if no label provided, make your own
     if not label: 
